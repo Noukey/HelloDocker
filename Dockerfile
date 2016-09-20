@@ -3,3 +3,4 @@ MAINTAINER yuanwh
 
 RUN mkdir -p /tomcat/webapps/myapp
 COPY . /tomcat/webapps/examples/
+COPY . /tomcat/webapps/myapp/
